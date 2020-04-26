@@ -24,7 +24,7 @@ const Header = props => (
             className={
               link === props.menuLinks[props.menuLinks.length - 1]
                 ? ""
-                : "px-2 border-right"
+                : "px-2 border-right "
             }
             key={link.name}
             href={link.link}
