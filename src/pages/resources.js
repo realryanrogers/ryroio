@@ -1,0 +1,11 @@
+import React from "react"
+import { Link } from "gatsby"
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const ResourcesPage = props => (
+  <Layout location={props.location.pathname}>Resources</Layout>
+)
+
+export default ResourcesPage
