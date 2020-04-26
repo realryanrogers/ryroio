@@ -34,7 +34,7 @@ const Layout = props => {
         location={props.location}
       />
 
-      <div></div>
+      <div>{props.children}</div>
     </>
   )
 }
