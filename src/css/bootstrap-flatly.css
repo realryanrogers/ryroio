@@ -186,6 +186,11 @@ a {
   background-color: transparent;
 }
 
+a.icon-link {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 a:hover {
   color: rgba(0, 0, 0, 0.7);
 }
@@ -592,6 +597,10 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+.footer-container {
+  width: 100%;
+  display: flex;
 }
 
 @media (min-width: 576px) {

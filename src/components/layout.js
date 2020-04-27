@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql, location } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "../css/bootstrap-flatly.css"
 
 const Layout = props => {
@@ -35,6 +36,8 @@ const Layout = props => {
       />
 
       <div>{props.children}</div>
+
+      <Footer />
     </>
   )
 }

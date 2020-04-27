@@ -11,6 +11,7 @@ import React from "react"
 // } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
+
 import "../css/bootstrap-flatly.css"
 
 const Header = props => (
