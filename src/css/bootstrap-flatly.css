@@ -191,6 +191,12 @@ a.icon-link {
   margin-right: 0.5rem;
 }
 
+a.disabled {
+  text-decoration: line-through;
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 a:hover {
   color: rgba(0, 0, 0, 0.7);
 }
@@ -625,6 +631,10 @@ pre code {
   .container {
     max-width: 1140px;
   }
+}
+
+.line-through {
+  text-decoration: line-through;
 }
 
 .container-fluid,

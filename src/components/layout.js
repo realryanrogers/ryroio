@@ -35,9 +35,12 @@ const Layout = props => {
         location={props.location}
       />
 
-      <div>{props.children}</div>
-
-      <Footer />
+      <div className="container">
+        <div>{props.children}</div>
+      </div>
+      <div className="container">
+        <Footer />
+      </div>
     </>
   )
 }
