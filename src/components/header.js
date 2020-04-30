@@ -47,17 +47,17 @@ const Header = props => (
           <Nav.Link className="px-2 border-right " key="Me" href="/">
             Me
           </Nav.Link>
-          <Nav.Link className="px-2 border-right " key="Now" href="/now">
+          <Nav.Link className="px-2 border-right " key="Now" href="/now/">
             Now
           </Nav.Link>
           <Nav.Link
             className="px-2 border-right "
             key="GameDev"
-            href="/gamedev"
+            href="/gamedev/"
           >
             GameDev
           </Nav.Link>
-          <Nav.Link key="contact" href="/contact">
+          <Nav.Link key="contact" href="/contact/">
             Contact
           </Nav.Link>
         </Nav>
