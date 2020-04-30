@@ -38,9 +38,7 @@ const Layout = props => {
       <div className="container">
         <div>{props.children}</div>
       </div>
-      <div className="container">
-        <Footer />
-      </div>
+      <Footer />
     </>
   )
 }
