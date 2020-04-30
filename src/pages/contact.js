@@ -8,7 +8,7 @@ const ContactPage = props => (
   <Layout location={props.location.pathname}>
     <SEO title="Contact" />
     <div>
-      <b>Hit me up!</b>
+      <h2>Hit me up!</h2>
       <p>
         Questions? Comments? Just wanna say hi? Shoot me an email!{" "}
         <a href="mailto://ryan@ryro.io">ryan@ryro.io</a>
