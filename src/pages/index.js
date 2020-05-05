@@ -8,8 +8,9 @@ const IndexPage = props => (
   <Layout location={props.location.pathname}>
     <SEO title="Home" />
     <h2>Hi. I'm Ryan.</h2>
+
+    <h3>I'm making games right now. Also, videos about those games.</h3>
     <p>
-      <h3>I'm making games right now. Also, videos about those games.</h3>
       You can see what else I'm up to on my <Link to="/now">now page</Link>.
     </p>
     <p>

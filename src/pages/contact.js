@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import SignUpPage from "../components/newslettersignup"
 
 const ContactPage = props => (
   <Layout location={props.location.pathname}>
@@ -20,6 +21,7 @@ const ContactPage = props => (
         </a>
       </p>
     </div>
+    <SignUpPage />
   </Layout>
 )
 
