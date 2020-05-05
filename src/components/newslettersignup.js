@@ -38,7 +38,7 @@ export default function SignUpPage() {
         <b>Subscribe for weekly extra content!</b>
       </p>
       <Form
-        name="contact"
+        name="newsletter-signup"
         method="post"
         action="/thanks/"
         data-netlify="true"
@@ -50,9 +50,17 @@ export default function SignUpPage() {
           controlId="formBasicEmail"
           className="mb-2 mr-sm-2 input-group"
         >
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>
+              Don’t fill this out:{" "}
+              <input name="bot-field" onChange={handleChange} />
+            </label>
+          </p>
           <Form.Control
             className="mr-sm-2 col-5"
             type="email"
+            name="email"
             placeholder="Enter email"
           />
           <div class="input-group-append">
