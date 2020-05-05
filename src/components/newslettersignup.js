@@ -50,7 +50,7 @@ export default function SignUpPage() {
           controlId="formBasicEmail"
           className="mb-2 mr-sm-2 input-group"
         >
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="newsletter-signup" />
           <p hidden>
             <label>
               Don’t fill this out:{" "}
@@ -62,6 +62,7 @@ export default function SignUpPage() {
             type="email"
             name="email"
             placeholder="Enter email"
+            onChange={handleChange}
           />
           <div class="input-group-append">
             <Button variant="primary" type="submit">
