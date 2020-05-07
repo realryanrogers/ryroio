@@ -64,7 +64,7 @@ export default function SignUpPage() {
             placeholder="Enter email"
             onChange={handleChange}
           />
-          <div class="input-group-append">
+          <div className="input-group-append">
             <Button variant="primary" type="submit">
               Sign Up
             </Button>
