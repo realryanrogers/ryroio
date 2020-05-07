@@ -12,7 +12,7 @@ import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
 
-import "../css/bootstrap-flatly.css"
+//import "../css/bootstrap-flatly.css"
 import NavbarBrand from "react-bootstrap/NavbarBrand"
 
 function menuClassName(link) {

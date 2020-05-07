@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
-import "../css/bootstrap-flatly.css"
+//import "../css/bootstrap-flatly.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
@@ -11,13 +11,8 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 
 const Footer = props => (
-  <Navbar
-    fixed="bottom"
-    variant="light"
-    bg="light"
-    className="justify-content-center"
-  >
-    <div>
+  <footer className="footer-container">
+    <div className="container">
       <a
         className="icon-link"
         href="https://twitter.com/realryanrogers"
@@ -43,7 +38,7 @@ const Footer = props => (
         <FontAwesomeIcon icon={faEnvelope} size="2x" />
       </a>
     </div>
-  </Navbar>
+  </footer>
 )
 
 export default Footer
