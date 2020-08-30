@@ -44,17 +44,13 @@ const Header = props => (
           ))}
         </Nav> */}
         <Nav className="ml-auto" activeKey={props.location}>
-          <Nav.Link className="px-2 border-right " key="Me" href="/">
+          <Nav.Link className="" key="Me" href="/">
             Me
           </Nav.Link>
-          <Nav.Link className="px-2 border-right " key="Now" href="/now/">
+          <Nav.Link className="" key="Now" href="/now/">
             Now
           </Nav.Link>
-          <Nav.Link
-            className="px-2 border-right "
-            key="GameDev"
-            href="/gamedev/"
-          >
+          <Nav.Link className="" key="GameDev" href="/gamedev/">
             GameDev
           </Nav.Link>
           <Nav.Link key="contact" href="/contact/">

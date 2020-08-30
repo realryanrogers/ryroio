@@ -4857,6 +4857,9 @@ input[type="button"].btn-block {
   padding: 0.5rem 2rem;
 }
 
+.nav-link:not(:last-child) {
+  border-right: 1px solid #dee2e6 !important;
+}
 .nav-link:hover,
 .nav-link:focus {
   text-decoration: none;
