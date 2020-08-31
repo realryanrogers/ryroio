@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "ryro.io",
-  "Id": "c40b59f7-9ba2-4d07-b3e6-f0f4a7ce19c2"
-}
